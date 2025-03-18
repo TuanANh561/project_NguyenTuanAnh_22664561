@@ -1,0 +1,89 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container-fluid{
+  max-width: 1280px;
+}
+
+.btn-login {
+  background-color: rgb(253, 229, 233);
+  border: 1px solid rgb(253, 229, 233);
+  color: rgb(248, 110, 133);
+  border-radius: 10px;
+}
+
+.btn-subscribe {
+  background-color: #ff4081;
+  border: 1px solid #ff4081;
+  color: white;
+  border-radius: 10px;
+}
+ 
+.item{
+  border-radius: 10px;
+  height: 300px;
+  margin: 10px;
+}
+
+.item-img {
+  height: 150px;
+  border-radius: 10px;
+}
+
+.item-title {
+  height: 50px;
+}
+
+.item-time {
+  color: #ff4081
+}
+
+.filter-box {
+    position: sticky;
+    top: 10px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.filter-title {
+  color: #ff4081;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.filter-label {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.filter-check {
+  font-size: 0.85rem;
+  margin-bottom: 2px;
+}
+
+.filter-range {
+  margin-top: 3px;
+}
+
+.filter-text {
+  font-size: 0.8rem;
+  color: #666;
+}
+.filter-button {
+  background-color: #ff4081;
+  border-color: #ff4081;
+  width: 100%;
+  padding: 5px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+}
+
+.filter-button:hover {
+  background-color: #e03575;
+  border-color: #e03575;
+}
